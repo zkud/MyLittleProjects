@@ -7,10 +7,6 @@
 // 2. Text input and output
 // 3. Memory and Stream functions
 // 4. Others
-// архитектура либы:
-// 4 функции для безопасного и удобного ввода/вывода
-// + новый тип для файлов
-
 
 // binary io:
 int boutput(void* variable_pointer, int size, 
