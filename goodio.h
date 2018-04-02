@@ -1,5 +1,5 @@
 #pragma once
-// Anton Kudyrka aka Little Sister or q3an
+// Little Sister
 // "Good input and output" version 1.1 beta
 // README:
 /*
