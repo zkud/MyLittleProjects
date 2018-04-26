@@ -1,4 +1,6 @@
-﻿using System;
+// L1ttl3S1st3r
+// Program finds the shortest knight way from one pole to another
+using System;
 using System.Collections;
 using System.Linq;
 using System.Text;
