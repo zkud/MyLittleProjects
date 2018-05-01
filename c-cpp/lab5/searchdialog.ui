@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SearchDialog</class>
+ <widget class="QDialog" name="SearchDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>290</width>
+    <height>188</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(46, 47, 48);</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="0" colspan="2">
+    <widget class="QLabel" name="label_3">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(46, 47, 48);
+font: 10pt &quot;Constantia&quot;;
+color: rgb(182, 182, 182);</string>
+     </property>
+     <property name="text">
+      <string>Please, input data for seaching:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QLabel" name="label_5">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(46, 47, 48);
+font: 10pt &quot;Constantia&quot;;
+color: rgb(182, 182, 182);</string>
+     </property>
+     <property name="text">
+      <string>The first parameter(equal):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QComboBox" name="comboBox1">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(46, 47, 48);
+gridline-color: rgb(46, 47, 48);
+font: 10pt &quot;Constantia&quot;;
+color: rgb(182, 182, 182);
+border-color: rgb(182, 182, 182);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Number</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Aim</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Time</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Date</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cost</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="6" column="0" colspan="2">
+    <widget class="QLabel" name="label_4">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(46, 47, 48);
+font: 10pt &quot;Constantia&quot;;
+color: rgb(182, 182, 182);</string>
+     </property>
+     <property name="text">
+      <string>The second parameter(max value):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QComboBox" name="comboBox2">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(46, 47, 48);
+gridline-color: rgb(46, 47, 48);
+font: 10pt &quot;Constantia&quot;;
+color: rgb(182, 182, 182);
+border-color: rgb(182, 182, 182);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Number</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Aim</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Time</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Date</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cost</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="8" column="0" colspan="2">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(50, 50, 50);
+selection-background-color: rgb(74, 75, 77);
+font: 10pt &quot;Constantia&quot;;
+font-color: rgb(193, 195, 196);
+color: rgb(182, 182, 182);</string>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QDateTimeEdit" name="dateTimeEdit1">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(50, 50, 50);
+selection-background-color: rgb(74, 75, 77);
+font: 10pt &quot;Constantia&quot;;
+font-color: rgb(193, 195, 196);
+color: rgb(182, 182, 182);</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0" colspan="2">
+    <widget class="QLineEdit" name="lineEdit1">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(46, 47, 48);
+gridline-color: rgb(46, 47, 48);
+font: 10pt &quot;Constantia&quot;;
+color: rgb(182, 182, 182);
+border-color: rgb(182, 182, 182);</string>
+     </property>
+     <property name="text">
+      <string>input first parameter here or in date/time</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>SearchDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>119</x>
+     <y>144</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>119</x>
+     <y>81</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>SearchDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>119</x>
+     <y>144</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>119</x>
+     <y>81</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

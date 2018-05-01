@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DeleteDialog</class>
+ <widget class="QDialog" name="DeleteDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>240</width>
+    <height>57</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(46, 47, 48);</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(46, 47, 48);
+font: 10pt &quot;Constantia&quot;;
+color: rgb(182, 182, 182);</string>
+     </property>
+     <property name="text">
+      <string>Imput number of item:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QSpinBox" name="choice">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(46, 47, 48);
+font: 10pt &quot;Constantia&quot;;
+color: rgb(182, 182, 182);</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(50, 50, 50);
+selection-background-color: rgb(74, 75, 77);
+font: 10pt &quot;Constantia&quot;;
+font-color: rgb(193, 195, 196);
+color: rgb(182, 182, 182);</string>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>DeleteDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>87</x>
+     <y>37</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>119</x>
+     <y>28</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>DeleteDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>87</x>
+     <y>37</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>119</x>
+     <y>28</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

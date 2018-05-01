@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SearchResult</class>
+ <widget class="QDialog" name="SearchResult">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>240</width>
+    <height>60</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(46, 47, 48);</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">
+font: 10pt &quot;Constantia&quot;;
+color: rgb(182, 182, 182);
+</string>
+     </property>
+     <property name="text">
+      <string>Result:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="result_label">
+     <property name="styleSheet">
+      <string notr="true">
+font: 10pt &quot;Constantia&quot;;
+color: rgb(182, 182, 182);
+</string>
+     </property>
+     <property name="text">
+      <string>&lt;result text&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="pushButton">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(50, 50, 50);
+selection-background-color: rgb(74, 75, 77);
+font: 10pt &quot;Constantia&quot;;
+font-color: rgb(193, 195, 196);
+color: rgb(182, 182, 182);</string>
+     </property>
+     <property name="text">
+      <string>ok</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>SearchResult</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>149</x>
+     <y>46</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>119</x>
+     <y>29</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(46, 47, 48);</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(46, 47, 48);</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QPushButton" name="refresh_button">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(50, 50, 50);
+selection-background-color: rgb(74, 75, 77);
+font: 10pt &quot;Constantia&quot;;
+font-color: rgb(193, 195, 196);
+color: rgb(182, 182, 182);</string>
+           </property>
+           <property name="text">
+            <string>Refresh</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="add_button">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(50, 50, 50);
+selection-background-color: rgb(74, 75, 77);
+font: 10pt &quot;Constantia&quot;;
+font-color: rgb(193, 195, 196);
+color: rgb(182, 182, 182);</string>
+           </property>
+           <property name="text">
+            <string>Add item</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="delete_button">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(50, 50, 50);
+selection-background-color: rgb(74, 75, 77);
+font: 10pt &quot;Constantia&quot;;
+font-color: rgb(193, 195, 196);
+color: rgb(182, 182, 182);</string>
+           </property>
+           <property name="text">
+            <string>Delete item</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="search_button">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(50, 50, 50);
+selection-background-color: rgb(74, 75, 77);
+font: 10pt &quot;Constantia&quot;;
+font-color: rgb(193, 195, 196);
+color: rgb(182, 182, 182);</string>
+           </property>
+           <property name="text">
+            <string>Search for item</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="save_button">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(50, 50, 50);
+selection-background-color: rgb(74, 75, 77);
+font: 10pt &quot;Constantia&quot;;
+font-color: rgb(193, 195, 196);
+color: rgb(182, 182, 182);</string>
+           </property>
+           <property name="text">
+            <string>Save to file</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="read_button">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(50, 50, 50);
+selection-background-color: rgb(74, 75, 77);
+font: 10pt &quot;Constantia&quot;;
+color: rgb(182, 182, 182);</string>
+           </property>
+           <property name="text">
+            <string>Read from file</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="exit_button">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(50, 50, 50);
+selection-background-color: rgb(74, 75, 77);
+font: 10pt &quot;Constantia&quot;;
+font-color: rgb(193, 195, 196);
+color: rgb(182, 182, 182);</string>
+           </property>
+           <property name="text">
+            <string>Exit</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(46, 47, 48);
+gridline-color: rgb(46, 47, 48);
+font: 10pt &quot;Constantia&quot;;
+color: rgb(182, 182, 182);
+border-color: rgb(182, 182, 182);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>exit_button</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>53</x>
+     <y>252</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
