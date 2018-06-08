@@ -8,9 +8,9 @@ int main() {
 
 	main_loop(&treap);
 
-    free_treap(treap);
-
-    return 0;
+	free_treap(treap);
+	
+	return 0;
 }
 
 
