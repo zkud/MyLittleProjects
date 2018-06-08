@@ -1,0 +1,8 @@
+﻿  Lab7Collections.cpp
+d:\files\docs\programs_and_projects\c\lab7\lab7_project\lab7_project\lab7collections.cpp(633): warning C4244: инициализация: преобразование "double" в "::size_t", возможна потеря данных
+d:\files\docs\programs_and_projects\c\lab7\lab7_project\lab7_project\lab7collections.cpp(635): warning C4244: инициализация: преобразование "double" в "::size_t", возможна потеря данных
+d:\files\docs\programs_and_projects\c\lab7\lab7_project\lab7_project\lab7collections.cpp(1021): warning C4018: <: несоответствие типов со знаком и без знака
+d:\files\docs\programs_and_projects\c\lab7\lab7_project\lab7_project\lab7collections.cpp(297): warning C4715: iterative_show_treap: значение возвращается не при всех путях выполнения
+d:\files\docs\programs_and_projects\c\lab7\lab7_project\lab7_project\lab7collections.cpp(325): warning C4715: iterative_show_treap_preorder: значение возвращается не при всех путях выполнения
+  lab7_project.vcxproj -> D:\files\docs\programs_and_projects\C\lab7\lab7_project\Debug\lab7_project.exe
+  lab7_project.vcxproj -> D:\files\docs\programs_and_projects\C\lab7\lab7_project\Debug\lab7_project.pdb (Partial PDB)
