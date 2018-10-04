@@ -9,7 +9,7 @@
 #include "exceptions\badvalueexception.hpp"
 #include <stdexcept>
 #include <list>
-
+#include <limits>
 
 namespace lab34
 {
@@ -36,7 +36,7 @@ namespace lab34
         if(stream.fail())
         {
           stream.clear();
-          stream.ignore();
+          stream.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
           std::cout << "incorrect input, try again" << std::endl;
         }
         
