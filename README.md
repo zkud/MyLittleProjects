@@ -5,6 +5,7 @@
 ### ASM:
 - tasm file i/o example [click](https://github.com/L1ttl3S1st3r/MyLittleProjects/blob/master/asm/lab5.asm)
 - tasm simple game example (snake) [click](https://github.com/L1ttl3S1st3r/MyLittleProjects/blob/master/asm/game.asm)
+- tasm interrupts handling example [click](https://github.com/L1ttl3S1st3r/MyLittleProjects/blob/master/asm/lab.asm)
 ### CPP:
 - mmx example [click](https://github.com/L1ttl3S1st3r/MyLittleProjects/tree/master/c-cpp/apklab2)
 - keyboard controller programming example [click](https://github.com/L1ttl3S1st3r/MyLittleProjects/tree/master/c-cpp/apklab6)
